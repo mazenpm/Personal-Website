@@ -12,8 +12,8 @@ html {
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.6;
-    color: #e0e0e0;
-    background-color: #0a0a0a;
+    color: #333;
+    background-color: #ffffff;
 }
 
 .container {
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(-50%);
     width: 60px;
     height: 4px;
-    background: linear-gradient(90deg, #00d4ff 0%, #00ff88 100%);
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
     border-radius: 2px;
 }
 
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(10, 10, 10, 0.95);
+    background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     z-index: 1000;
     padding: 1rem 0;
@@ -73,13 +73,13 @@ h1, h2, h3, h4, h5, h6 {
 .nav-logo a {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #00d4ff;
+    color: #667eea;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .nav-logo a:hover {
-    color: #00ff88;
+    color: #764ba2;
 }
 
 .nav-menu {
@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Hero Section */
 .hero {
     padding: 120px 0 80px;
-    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     min-height: 100vh;
     display: flex;
@@ -193,8 +193,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-    background: #00ff88;
-    color: #0a0a0a;
+    background: #ffd700;
+    color: #333;
 }
 
 .btn-primary:hover {
@@ -237,7 +237,7 @@ h1, h2, h3, h4, h5, h6 {
 /* About Section */
 .about {
     padding: 80px 0;
-    background: #111111;
+    background: #f8f9fa;
 }
 
 .about-content {
@@ -296,10 +296,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .skill-category {
-    background: #1a1a1a;
+    background: white;
     padding: 2rem;
     border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
@@ -339,7 +339,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Projects Section */
 .projects {
     padding: 80px 0;
-    background: #111111;
+    background: #f8f9fa;
 }
 
 .projects-grid {
@@ -349,10 +349,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .project-card {
-    background: #1a1a1a;
+    background: white;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -479,10 +479,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-form {
-    background: #1a1a1a;
+    background: white;
     padding: 2rem;
     border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .form-group {
